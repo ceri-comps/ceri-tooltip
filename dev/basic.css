@@ -1,0 +1,19 @@
+button {
+  user-select: none;
+  border: none;
+}
+.absolute {
+  position: absolute;
+}
+.margin {
+  margin-left: 20px;
+}
+ceri-tooltip:not(.materialize) {
+  margin: 10px;
+  padding: 2px;
+  border: 1px solid black;
+  background: white;
+}
+button.btn {
+  width: 110px;
+}

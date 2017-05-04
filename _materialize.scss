@@ -1,0 +1,20 @@
+ceri-tooltip.materialize {
+  padding: 10px 8px;
+  font-size: 1rem;
+  z-index: 2000;
+  background-color: #323232;
+  border-radius: 2px;
+  color: #fff;
+  min-height: 36px;
+  margin: 14px;
+  line-height: 120%;
+  text-align: center;
+  max-width: calc(100% - 4px);
+  pointer-events: none;
+  will-change: transform;
+}
+@media #{$small-and-down} {
+  ceri-tooltip.materialize {
+    margin: 24px;
+  }
+}
