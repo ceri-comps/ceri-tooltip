@@ -21,9 +21,6 @@ module.exports = createView
     <ceri-tooltip class=materialize anchor="w">Content</ceri-tooltip>
 
 """
-  tests: (env) ->
-    describe "dropdown", ->
-      describe "materialize", ->
-        after: ->
-          env.remove()
-        it "works", ->
+  tests: dropdown: ->
+    it "should work", =>
+      should.exist @
