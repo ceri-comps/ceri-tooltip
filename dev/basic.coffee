@@ -1,10 +1,10 @@
-require "./basic.css"
 window.customElements.define "ceri-tooltip", require "../src/tooltip.coffee"
 createView = require "ceri-dev-server/lib/createView"
 module.exports = createView
   mixins: [
     require "ceri/lib/#model"
     require "ceri/lib/computed"
+    require "ceri/lib/watch"
   ]
   structure: template 1, """
     <button class="absolute" style="top:10px;left:10px;"
